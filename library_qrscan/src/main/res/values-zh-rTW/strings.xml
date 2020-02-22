@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">library_qrscan</string>
+    <string name="msg_scan_hint">請將鏡頭對準二維碼進行掃描</string>
+</resources>

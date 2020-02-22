@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BuckWallet</string>
+    <string name="msg_scan_hint">Point the camera at the QR code to scan</string>
+</resources>

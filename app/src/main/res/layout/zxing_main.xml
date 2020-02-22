@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/whole_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+        <SurfaceView
+            android:id="@+id/preview_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center" />
+
+        <view.ScanBoxView
+            android:id="@+id/capture_crop_view_v"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            app:qrcv_animTime="1000"
+            app:qrcv_borderColor="@color/colorPrimary"
+            app:qrcv_borderSize="0dp"
+            app:qrcv_cornerColor="@color/colorPrimary"
+            app:qrcv_cornerLength="20dp"
+            app:qrcv_cornerSize="2dp"
+            app:qrcv_isCenterVertical="true"
+            app:qrcv_isScanLineReverse="true"
+            app:qrcv_maskColor="#88000000"
+            app:qrcv_rectWidth="225dp"
+            app:qrcv_scanLineColor="@android:color/holo_green_dark"
+            app:qrcv_scanLineMargin="0dp"
+            app:qrcv_scanLineSize="0.5dp"
+            app:qrcv_toolbarHeight="16dp"/>
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ccffffff"
+            android:textSize="16sp" />
+
+
+
+    </RelativeLayout>
+</LinearLayout>

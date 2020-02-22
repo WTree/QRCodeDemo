@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="half_padding">4dip</dimen>
+    <dimen name="scan_dynamic_red_line_height">1dp</dimen>
+    <dimen name="title_indicator_footer_line_height">2dp</dimen>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">library_qrscan</string>
+    <string name="msg_scan_hint">请将镜头对准二维码进行扫描</string>
+</resources>
